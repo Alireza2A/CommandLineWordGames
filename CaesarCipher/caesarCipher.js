@@ -5,7 +5,7 @@
 //Initializations
 const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
-/*Main*/
+/* Main */
 const args = process.argv.slice(2);
 // console.log(args[1]);
 const text = args[0];
