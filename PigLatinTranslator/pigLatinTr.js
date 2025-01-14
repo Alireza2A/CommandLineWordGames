@@ -9,7 +9,7 @@ const vowels = ["a", "o", "u", "i", "e"];
 const args = process.argv.slice(2);
 let translatedText = "";
 
-/* Main */
+/*  Main */
 args.forEach((word) => {
     const translatedWord = GetPigLatinTranslation(word);
     translatedText += translatedWord + " ";
